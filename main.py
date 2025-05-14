@@ -9,11 +9,11 @@ from datetime import datetime
 from pystyle import Colorate, Colors
 
 # Token and intents
-TOKEN = "bot token here"
+TOKEN = "YOUR_BOT_TOKEN
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-SERVER_ID = "server id here"
+SERVER_ID = "YOUR_SERVER_ID"
 
 # Clear console
 def clear_console():
