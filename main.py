@@ -9,7 +9,7 @@ from datetime import datetime
 from pystyle import Colorate, Colors
 
 # Token and intents
-TOKEN = "YOUR_BOT_TOKEN
+TOKEN = "YOUR_BOT_TOKEN"
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 
